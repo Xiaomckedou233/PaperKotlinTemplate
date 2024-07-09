@@ -1,0 +1,5 @@
+name: ExamplePlugin
+version: '${version}'
+main: com.author.plugin.ExamplePlugin
+api-version: '1.20'
+load: STARTUP
