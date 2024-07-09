@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     val paperVersion: String by project
+
+    shadow("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
     compileOnly("io.papermc.paper:paper-api:$paperVersion-R0.1-SNAPSHOT")
 }
 
